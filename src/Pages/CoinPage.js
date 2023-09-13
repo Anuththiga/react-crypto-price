@@ -34,15 +34,15 @@ function CoinPage() {
                     </div>
                     <div className='coinpage-row'>
                         <h3 className='coinpage-row--header'>Current Price: </h3>
-                        <h3 className='coinpage-row--data'>$ {coin.price.toLocaleString()}</h3>
+                        <h3 className='coinpage-row--data'>$ {Math.round(coin.price)}</h3>
                     </div>
                     <div className='coinpage-row'>
                         <h3 className='coinpage-row--header'>Market Cap: </h3>
-                        <h3 className='coinpage-row--data'>$ {coin.marketCap.toLocaleString()}</h3>
+                        <h3 className='coinpage-row--data'>$ {Math.round(coin.marketCap)}</h3>
                     </div>
                     <div className='coinpage-row'>
                         <h3 className='coinpage-row--header'>Total Volume: </h3>
-                        <h3 className='coinpage-row--data'>$ {coin.volume.toLocaleString()}</h3>
+                        <h3 className='coinpage-row--data'>$ {Math.round(coin.volume)}</h3>
                     </div>
                     <div className='coinpage-row'>
                         <h3 className='coinpage-row--header'>Total Supply: </h3>
