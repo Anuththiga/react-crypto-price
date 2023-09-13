@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Coin = ({ id, coinName, icon, symbol, price, priceChange, marketCap }) => {
+  let navigate = useNavigate();
+
   return (
     <div className="coin-container">
       <div className="coin-row">
@@ -16,7 +19,7 @@ const Coin = ({ id, coinName, icon, symbol, price, priceChange, marketCap }) => 
               <p className="price-change green">{priceChange.toFixed(2)}%</p>
             )}
             <p className="coin-volume">$ {marketCap.toLocaleString()}</p>
-            <button>More Info</button>
+            <button onClick={() => navigate(`/coin-page/${id}`)}>More Info</button>
           </div>
         </div>
       </div>
