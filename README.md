@@ -1,6 +1,7 @@
 # Crypto Price Checker
 
-![image](https://github.com/Anuththiga/react-crypto-price/assets/31033605/d00cfd93-ade5-40db-a32c-063faa88aef2)
+
+![Capture3](https://github.com/Anuththiga/react-crypto-price/assets/31033605/ced96687-f73e-46a5-ae94-02fd1bfdc38f)
 
 
 
